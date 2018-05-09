@@ -8,7 +8,7 @@
   .el-aside {
     background-color: #D3DCE6;
     color: #333;
-    text-align: center;
+    text-align: left;
     height: 885px;
   }
   
@@ -17,6 +17,11 @@
     color: #333;
     text-align: center;
     height:825px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0.5px;
+    
   }
   
   body > .el-container {
@@ -37,6 +42,6 @@
     height: 320px;
   }
   .el-menu-vertical-demo:not(.el-menu--collapse) {
-    width: 198px;
-    min-height: 400px;
+    width: 199px;
+    height: 885px;
   }
