@@ -1,0 +1,42 @@
+.el-header, .el-footer {
+    background-color: rgb(243, 104, 99);
+    color: #333;
+    text-align: center;
+    height: 60px;
+  }
+  
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    height: 885px;
+  }
+  
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    height:825px;
+  }
+  
+  body > .el-container {
+    margin-bottom: 10px;
+  }
+
+  body
+  {
+    margin:0px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    height: 320px;
+  }
+  .el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 198px;
+    min-height: 400px;
+  }
